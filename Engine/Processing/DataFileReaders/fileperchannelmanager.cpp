@@ -28,6 +28,9 @@
 //
 //------------------------------------------------------------------------------
 
+// Jakob Arend's change to fix "error: ‘sleep_for’ is not a member of ‘std::this_thread’" on Ubuntu
+#include <thread>
+
 #include <QFileInfo>
 #include <iostream>
 #include "rhxglobals.h"
